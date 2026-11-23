@@ -1,6 +1,11 @@
 {
-  "/api/templates/route": "app/api/templates/route.js",
-  "/api/logs/route": "app/api/logs/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/api/dashboard/route": "app/api/dashboard/route.js",
+  "/api/import/merchants/route": "app/api/import/merchants/route.js",
+  "/api/merchants/route": "app/api/merchants/route.js",
+  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
+  "/api/templates/route": "app/api/templates/route.js",
+  "/api/import/issues/route": "app/api/import/issues/route.js",
+  "/api/logs/route": "app/api/logs/route.js",
   "/page": "app/page.js"
 }

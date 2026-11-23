@@ -292,7 +292,7 @@ export default function HomePage() {
             Merchant Support — Daily Task, Issue Log & Score PWA
           </h1>
           <p className="text-xs sm:text-sm text-sky-100">
-            Next.js PWA + Supabase Postgres on Vercel
+            
           </p>
         </div>
         <div className="flex items-center gap-2">

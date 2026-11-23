@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/dashboard/route": "/api/dashboard",
+  "/api/import/merchants/route": "/api/import/merchants",
+  "/api/merchants/route": "/api/merchants",
+  "/manifest.webmanifest/route": "/manifest.webmanifest",
+  "/api/templates/route": "/api/templates",
+  "/api/import/issues/route": "/api/import/issues",
+  "/api/logs/route": "/api/logs",
+  "/page": "/"
+}
