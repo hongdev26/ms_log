@@ -269,10 +269,9 @@ export default function HomePage() {
         .map((v) => `"${String(v ?? "").replace(/"/g, '""')}"`)
         .join(",")
     );
-    const blob = new Blob(["﻿" + [headers.join(","), ...csvRows].join("
-")], {
-      type: "text/csv;charset=utf-8;",
-    });
+   const blob = new Blob(["\uFEFF" + [headers.join(","), ...csvRows].join("\n")], {
+  type: "text/csv;charset=utf-8;",
+});
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = `Issue_Logs_${new Date().toISOString().slice(0, 10)}.csv`;

@@ -1,1 +1,6 @@
-{}
+{
+  "/api/templates/route": "app/api/templates/route.js",
+  "/api/logs/route": "app/api/logs/route.js",
+  "/api/dashboard/route": "app/api/dashboard/route.js",
+  "/page": "app/page.js"
+}
