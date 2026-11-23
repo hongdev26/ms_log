@@ -4,7 +4,7 @@ import PwaRegistrar from "@/components/PwaRegistrar";
 
 export const metadata: Metadata = {
   title: "Merchant Support — Daily Task, Issue Log & Score Dashboard",
-  description: "Next.js PWA + Supabase Postgres on Vercel",
+  description: "Merchant support issue tracking, daily task logging, and score analytics.",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",

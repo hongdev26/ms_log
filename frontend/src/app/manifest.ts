@@ -4,8 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Merchant Support — Daily Task, Issue Log & Score Dashboard",
     short_name: "Merchant Log",
-    description:
-      "Mobile-installable PWA on Vercel with Supabase Postgres for merchant MID/right-8 lookup, scored issue templates, and analytics.",
+    description: "Merchant support issue tracking, daily task logging, and score analytics.",
     start_url: "/",
     scope: "/",
     display: "standalone",
